@@ -1,20 +1,17 @@
 body {
-    margin: 0;
+    background-color: lightgray;
 }
 
 #app-cont {
     box-sizing: border-box;
     display: flex;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
     justify-content: space-between;
     height: 90vh;
     width: 90vw;
     border: 1px solid black;
-    align-content: space-between;
     flex-direction: column;
+    background-color: antiquewhite;
 }
 
 #header {
@@ -22,24 +19,30 @@ body {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     border: 1px solid orange;
+    background-color: lightpink;
     height: 10em;
-    width: 27em;
-    justify-content: space-between;
+    width: 35em;
+    justify-content: space-around;
     margin-left: 25%;
     margin-right: 20%;
-    margin-top: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #review-cont {
 border: 1px solid black;
-width: 5em;
+width: 7em;
 height: 10em;
+display: flex;
+flex-direction: column;
 }
 
 #rating-cont{
     border: 1px solid black;
-    width: 5em;
+    width: 7em;
     height: 10em;
+    display: flex;
+    flex-direction: column;
 }
 
 #sent-cont {
@@ -55,25 +58,27 @@ height: 10em;
 display: flex;
 align-items: center;
 border: 1px solid red;
-width: 10em;
+width: 11em;
 position: absolute;
-height: 35em;
-margin-bottom: 5%;
-margin-top: 5%
+height: 39em;
+margin: 1%;
 }
 
 #body-container{
     display: flex;
+    flex: 90%;
     border: 1px solid black;
-    width: 27em;
+    width: 35em;
     height: 25em;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     align-items: center;
     justify-content: center;
     margin-left: 25%;
 }
 
 #stat-display {
+    display: flex;
+    flex-direction: column;
     background-color: lightgray;
     height: 20em;
     width: 20em;
